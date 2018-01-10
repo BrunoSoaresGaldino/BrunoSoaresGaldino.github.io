@@ -1,0 +1,122 @@
+body
+{
+    font-size:100%;
+    background-color:#f1f1f1;
+}
+#menu
+{
+    width: 96%;
+
+    padding: 10px;
+    
+    position:relative;
+    
+    border-bottom: 2px solid black;
+    
+    margin:auto;
+    
+}
+#menu li
+{
+    list-style:none;
+    display: inline-block;
+    margin: 10px 5px;
+    
+}
+
+#menu a
+{
+    
+    color:black;
+    
+    text-decoration:none;
+    
+    background-color: #ccc;
+    
+    padding:10% 15px;
+    
+    border-radius: 4px;
+    
+    font-size:120%;
+    
+}
+#menu a:hover
+{
+    
+    color:white;
+    
+    background-color:#999;
+    
+    transition:1s;
+}
+
+.container
+{
+    width:90%;
+    
+    position:relative;
+    
+    margin: auto;
+    
+    font-size:150%;
+
+    text-indent:2%;
+   
+}
+.social
+{
+    
+    
+    position:fixed;
+    
+    bottom:10px;
+    
+    right:0px;
+  
+    
+}
+
+.social li
+{
+    display:inline-block;
+}
+
+.social a
+{
+    width:32px;
+    height:32px;
+ 
+    display:block;
+    
+    text-indent:-9999px;
+    
+    margin:5px;
+}
+
+.social a[ href *= "facebook"]
+{
+    background-image: url( ../img/facebook.png);
+
+}
+
+#interface section
+{
+    color: #2f2f2f;
+    margin: 100px 10px;
+    font-family: ;
+    
+}
+
+#home 
+{
+    width:100%;
+}
+
+#home img
+{
+    width:100%;
+ 
+    position:relative;
+    
+    left:-26px;
+}

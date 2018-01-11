@@ -1,27 +1,43 @@
 body
 {
+    width:100%; 
+    
     font-size:100%;
+    
     background-color:#f1f1f1;
+    
 }
+
 #menu
 {
     width: 96%;
 
-    padding: 10px;
+    padding:2%;
     
-    position:relative;
+    position:fixed;
+    
+    top:-1%;
     
     border-bottom: 2px solid black;
     
     margin:auto;
     
+    z-index:1;
+
+    clear:both;
+    
+    background-color:inherit;
+    
+    
 }
+
 #menu li
 {
-    list-style:none;
+    list-style: none;
     display: inline-block;
-    margin: 10px 5px;
-    
+    margin: 0.5%;
+    position:relative;
+    left:5%;
 }
 
 #menu a
@@ -33,7 +49,7 @@ body
     
     background-color: #ccc;
     
-    padding:10% 15px;
+    padding:10px; 15px;
     
     border-radius: 4px;
     
@@ -47,12 +63,13 @@ body
     
     background-color:#999;
     
-    transition:1s;
+    transition:0.7s;
 }
 
 .container
 {
-    width:90%;
+    
+    width:80%;
     
     position:relative;
     
@@ -61,19 +78,20 @@ body
     font-size:150%;
 
     text-indent:2%;
-   
+
+    top:110px;
+    
 }
 .social
 {
     
-    
     position:fixed;
     
-    bottom:10px;
-    
-    right:0px;
+    bottom:0;
+ 
+    right:0;
   
-    
+    z-index:2;
 }
 
 .social li
@@ -83,6 +101,7 @@ body
 
 .social a
 {
+    
     width:32px;
     height:32px;
  
@@ -91,32 +110,85 @@ body
     text-indent:-9999px;
     
     margin:5px;
+    
+    
 }
 
 .social a[ href *= "facebook"]
 {
-    background-image: url( ../img/facebook.png);
+    
+background-image: url( ../img/facebook.png);
 
+}
+
+.social a[ href *= "github"]
+{
+    background-image:url( ../img/github.png);
+    
+    border-radius: 100%;
+}
+.social a[ href *= "linkedin" ]
+{
+    background-image: url(../img/linkedin.png);
 }
 
 #interface section
 {
-    color: #2f2f2f;
-    margin: 100px 10px;
-    font-family: ;
+    
+    margin: 110px 10px;
     
 }
 
-#home 
+#interface section h2
 {
-    width:100%;
+    
+    color: #888;
+    
+}
+
+#home
+{
+    margin:auto;
 }
 
 #home img
 {
-    width:100%;
- 
-    position:relative;
+    width:35%;
+    height:35%;
     
-    left:-26px;
+    position:relative;
+    margin:auto;
+    border-radius:100%;
+    
+  
+}   
+#botao-menu
+{
+    
+    width:35px;
+    height:30px;
+    
+    position:fixed;
+    
+    left:10px;
+    
+    top:10px;
+    
+    z-index:2;
+    
+    cursor:pointer;
+    
+}
+
+#botao-menu div
+{
+    background-color: #000;
+    
+    height:6px;
+    
+    margin: 3px;
+    
+    z-index:3;
+    
+    border-radius: 4px;
 }

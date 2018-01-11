@@ -28,6 +28,7 @@ body
     
     background-color:inherit;
     
+    z-index:2;
     
 }
 
@@ -188,7 +189,21 @@ background-image: url( ../img/facebook.png);
     
     margin: 3px;
     
-    z-index:3;
+    z-index:2;
     
     border-radius: 4px;
+}
+#back
+{
+    height:120px;
+    width:100%;
+    position:fixed;
+    
+    top:0;
+    left:0;
+    
+    z-index:1;
+    
+    background-color:inherit;
+    
 }

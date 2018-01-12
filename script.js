@@ -2,7 +2,7 @@
 function f(  )
 {
     
-    var state = true;
+    var hiden = false;
     
     var btn = document.getElementById('botao-menu');
  
@@ -12,16 +12,16 @@ function f(  )
     {
         var menu = document.getElementById('menu');
         
-        if( state )
+        if( hiden )
         {
-            state = false;
+            hiden = false;
             
             menu.style.display = "block";
             
         }
         else
         {
-            state = true;
+            hiden = true;
             
             menu.style.display = "none";
         }

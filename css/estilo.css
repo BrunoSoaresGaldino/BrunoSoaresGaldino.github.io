@@ -13,10 +13,12 @@ body
     width: 96%;
 
     padding:2%;
+
+    height:30px;
     
     position:fixed;
     
-    top:2%;
+    top:-1%;
     
     border-bottom: 2px solid black;
     
@@ -192,18 +194,4 @@ background-image: url( ../img/facebook.png);
     z-index:2;
     
     border-radius: 4px;
-}
-#back
-{
-    height:120px;
-    width:100%;
-    position:fixed;
-    
-    top:0;
-    left:0;
-    
-    z-index:1;
-    
-    background-color:inherit;
-    
 }

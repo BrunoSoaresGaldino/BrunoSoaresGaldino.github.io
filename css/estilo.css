@@ -12,17 +12,16 @@ body
 {
     width: 96%;
 
-    padding:2%;
-
-    height:30px;
+   
+    height:80px;
     
     position:fixed;
-    
-    top:-1%;
     
     border-bottom: 2px solid black;
     
     margin:auto;
+
+    top:-1%;
     
     z-index:1;
 
@@ -41,6 +40,9 @@ body
     margin: 0.5%;
     position:relative;
     left:5%;
+    
+    top:30%;
+    
 }
 
 #menu a
@@ -176,7 +178,7 @@ background-image: url( ../img/facebook.png);
     
     left:10px;
     
-    top:10px;
+    top:3%;
     
     z-index:2;
     

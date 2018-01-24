@@ -57,7 +57,8 @@ body
     border-radius: 4px;
     
     font-size:120%;
-    
+
+    text-transform: uppercase;
 }
 #menu a:hover
 {

@@ -115,22 +115,16 @@ figure img
     margin-bottom: 20px;
 }
 
-#painel_projetos
-{
-    height: 645px;
-}
-
 #painel_projetos figure
 {
-    width: 300px;
-    height: 300px;
-    margin: auto;
+    width: 460px;
+    height: 460px;
+    margin: 10px;
 }
 
 #painel_projetos figcaption
 {
-        
-    width:  290px;
+    width:  450px;
     padding: 5px;
     height: 70px;
     

@@ -1,0 +1,176 @@
+
+#menu
+{
+    width: 100%;
+    height: 120px;
+    
+    position: fixed;
+    top:  0;
+    left: 0;
+    z-index: 2;
+
+    background-color:lightgray;
+}
+
+body
+{
+    margin:  0;
+    padding: 0;
+    padding-top: 120px;
+}
+
+h1
+{
+    font-family: 'Rubik',serif;
+    font-size: 36px;
+    color: #444;
+    
+    text-align: center;
+}
+
+p
+{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #444;
+
+    line-height: 33px;
+    
+    margin: 10px 0;
+    
+}
+
+#menu nav
+{
+    position: absolute;
+    height: 100%;
+}
+
+nav ul
+{
+    position: relative;
+    top: 30px;
+    padding: 0;
+}
+
+nav li
+{ 
+    position: relative;
+    left: 490px;
+
+    margin-right: 20px;
+    
+    display: inline-block;
+}
+
+nav li a
+{
+    font-family: 'Rubik',serif;
+    font-size: 24px;   
+    color: #444;
+    
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav li:hover
+{
+    border-bottom: 4px solid #444;
+}
+
+.logo
+{
+    width: 120px;
+    height: 60px;
+
+    position: relative;
+    top: 30px;
+    
+    float: left;
+}
+
+#foto_inicial
+{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+figure img 
+{
+    width:  100%;
+    height: 100%;
+}
+
+#perfil
+{
+    width:  300px;
+    height: 300px;
+    
+    position: relative;
+    left: calc( 50% - 180px );
+
+    margin-bottom: 20px;
+}
+
+#painel_projetos
+{
+    height: 645px;
+}
+
+#painel_projetos figure
+{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+#painel_projetos figcaption
+{
+        
+    width:  290px;
+    padding: 5px;
+    height: 70px;
+    
+    position: relative;
+    top: -84px;
+
+    font-family: serif;
+    font-size: 18px;
+    color:white;
+    text-align: justify;
+
+    background-color:rgba( 103,103,103, 0.89 );
+    
+}
+
+
+.mt140
+{
+    margin-top: 120px;
+}
+
+.grid960
+{
+    width: 960px;
+
+    position: relative;
+    left: calc( ( 100% - 960px ) / 2 );
+    
+    padding: 0;
+    margin:  0;
+
+}
+
+.circular
+{   
+    border-radius: 100%;
+}
+
+
+.pt140
+{
+    padding-top:140px;
+}

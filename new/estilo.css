@@ -1,21 +1,14 @@
 
+@import url("https://fonts.googleapis.com/css?family=Muli");
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+
 html
 {
+    font-family:'Muli', sans-serif;
     font-size: 22px;
     color: #444;
-}
 
-#menu
-{
-    width: 100%;
-    height: 120px;
-    
-    position: fixed;
-    top:  0;
-    left: 0;
-    z-index: 2;
-
-    background-color:lightgray;
+    line-height: 33px;
 }
 
 body
@@ -29,25 +22,34 @@ h1
 {
     font-family: 'Rubik',serif;
     font-size: 36px;
-    
+
     text-align: center;
 }
 
 p
 {
-    font-family: sans-serif;
-    font-size: 22px;
-
-    line-height: 33px;
-    
     margin: 30px 10px;
+    text-indent: 10px;
+}
+
+#menu
+{
+    width: 100%;
+    height: 120px;
     
+    position: fixed;
+    top:  0;
+    left: 0;
+    z-index: 1;
+
+    background-color: #afafaf;
 }
 
 #menu nav
 {
     position: absolute;
     height: 100%;
+    padding: 0;
 }
 
 nav ul
@@ -60,7 +62,7 @@ nav ul
 nav li
 { 
     position: relative;
-    left: 490px;
+    left: 480px;
 
     margin-right: 20px;
     
@@ -72,7 +74,6 @@ nav li a
     font-family: 'Rubik',serif;
     font-size: 24px;
     color:inherit;
-    text-transform: uppercase;
     text-decoration: none;
 }
 
@@ -113,16 +114,20 @@ figure img
     height: 300px;
     
     position: relative;
-    left: calc( 50% - 180px );
+    left: calc( 50% - 150px );
+}
 
-    margin-bottom: 20px;
+#painel_projetos
+{
+    width: 100%;
 }
 
 #painel_projetos figure
 {
     width: 460px;
     height: 460px;
-    margin: 10px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 #painel_projetos figcaption
@@ -134,7 +139,7 @@ figure img
     position: relative;
     top: -84px;
 
-    font-family: serif;
+    font-family: inherit;
     font-size: 18px;
     color:white;
     text-align: justify;
@@ -143,33 +148,12 @@ figure img
     
 }
 
-
-.mt140
+#form_contato *
 {
-    margin-top: 120px;
-}
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
 
-.grid960
-{
-    width: 960px;
-
-    position: relative;
-    left: calc( ( 100% - 960px ) / 2 );
-    
-    padding: 0;
-    margin:  0;
-    margin-bottom: 140px;
-
-}
-
-.circular
-{   
-    border-radius: 100%;
-}
-
-.pt140
-{
-    padding-top:140px;
 }
 
 #form_field_nome, #form_field_email, #form_field_tel
@@ -179,10 +163,8 @@ figure img
     
     margin-left: 10px;
     
-    border: 1px solid #444;
+    border: 1px solid #afafaf;
     border-radius: 6px;
-
-    font-size: 22px;
 }
 
 #form_contato label
@@ -192,8 +174,6 @@ figure img
 
     margin-left: 15px;
     margin-top: 20px;
-
-    font-size:22px;
 }
 
 #label_msg
@@ -208,7 +188,7 @@ figure img
     width: 930px;
     height: 200px;
     margin-left: 10px;
-    border: 1px solid gray;
+    border: 1px solid #afafaf;
     border-radius: 6px;
 
     resize: none;
@@ -220,19 +200,6 @@ figure img
     margin-top: 20px;
     width:  80px;
     height: 40px;
-
-    font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    
-
-}
-
-footer
-{
-    width: 100%;
-    height: 120px;
-    background-color: lightgray;
 }
 
 #social
@@ -281,4 +248,34 @@ footer
 #social a[ href *= "linkedin" ]
 {
     background-image: url( img/linkedin.png);
+}
+
+#contato
+{
+    padding-bottom: 140px;
+}
+
+.grid960
+{
+    width: 960px;
+
+    position: relative;
+    left: calc( ( 100% - 960px ) / 2 );
+    
+    padding: 0;
+    margin:  0;
+    padding-top:120px;
+
+}
+
+.circular
+{   
+    border-radius: 100%;
+}
+
+footer
+{
+    width: 100%;
+    height: 120px;
+    background-color: #afafaf;
 }

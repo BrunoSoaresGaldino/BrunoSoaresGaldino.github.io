@@ -237,11 +237,11 @@ footer
 
 #social
 {
-    height: 200px;
+    height: 210px;
     position: fixed;
     
     left: 10px;
-    top: calc(50% - 100px);
+    top: calc(50% - 105px);
     z-index: 2;
 }
 

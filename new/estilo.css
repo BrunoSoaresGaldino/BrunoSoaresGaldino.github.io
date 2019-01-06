@@ -241,7 +241,7 @@ footer
     position: fixed;
     
     left: 10px;
-    top: calc(50% - 105px);
+    top: 10px;
     z-index: 2;
 }
 

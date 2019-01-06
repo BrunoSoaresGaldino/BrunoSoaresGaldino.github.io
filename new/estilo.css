@@ -240,7 +240,7 @@ footer
     height: 200px;
     position: fixed;
     
-    left: 0;
+    left: 10px;
     top: calc(50% - 100px);
     z-index: 2;
 }

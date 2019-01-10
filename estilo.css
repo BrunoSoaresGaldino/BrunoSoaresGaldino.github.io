@@ -13,9 +13,9 @@ html
 
 body
 {
-    margin:  0;
-    padding: 0;
-    padding-top: 120px;
+    margin: 0;
+    margin-top: 120px;
+    position: relative;
 }
 
 h1
@@ -50,13 +50,13 @@ p
     position: absolute;
     height: 100%;
     padding: 0;
+
 }
 
 nav ul
 {
     position: relative;
     top: 30px;
-    padding: 0;
 }
 
 nav li
@@ -98,8 +98,6 @@ nav li:hover
     width: 100%;
     height: 600px;
     margin: 0;
-    padding: 0;
-    position: relative;
 }
 
 figure img 
@@ -134,18 +132,24 @@ figure img
 {
     width:  450px;
     padding: 5px;
-    height: 70px;
+    height: 85px;
     
     position: relative;
-    top: -84px;
+    top: -104px;
 
     font-family: inherit;
     font-size: 18px;
-    color:white;
+    color: white;
     text-align: justify;
+    line-height: 27px;
 
     background-color:rgba( 103,103,103, 0.89 );
     
+}
+
+#painel_projetos figcaption a
+{
+    color: inherit;
 }
 
 #form_contato *
@@ -153,7 +157,6 @@ figure img
     font-family: inherit;
     color: inherit;
     font-size: inherit;
-
 }
 
 #form_field_nome, #form_field_email, #form_field_tel
@@ -162,7 +165,7 @@ figure img
     height: 40px;
     
     margin-left: 10px;
-    
+
     border: 1px solid #afafaf;
     border-radius: 6px;
 }
@@ -196,10 +199,14 @@ figure img
 
 #form_submit
 {
-    margin-left: 10px;
-    margin-top: 20px;
+
     width:  80px;
     height: 40px;
+
+    margin-left: 10px;
+    margin-top: 20px;
+
+    border-radius: 4px
 }
 
 #social
@@ -207,7 +214,7 @@ figure img
     height: 210px;
     position: fixed;
     
-    left: 10px;
+    left: 20px;
     top: 120px;
     z-index: 2;
 }
@@ -261,11 +268,10 @@ figure img
 
     position: relative;
     left: calc( ( 100% - 960px ) / 2 );
-    
     padding: 0;
     margin:  0;
     padding-top:120px;
-
+    padding-bottom: 10px;
 }
 
 .circular
@@ -278,4 +284,11 @@ footer
     width: 100%;
     height: 120px;
     background-color: #afafaf;
+}
+
+footer p
+{
+    position: relative;
+    top:50px;
+    text-align: center;
 }

@@ -1,131 +1,206 @@
-<!DOCTYPE html>
+
+<!doctype HTML>
 
 <html lang = "pt-br" >
 
     <head>
-        
+
         <meta charset = "utf-8">
-        
+        <meta author  = "Bruno Galdino">
+        <link rel = "stylesheet" href = "estilo.css">
+        <link rel = "icon" href = "img/icone.png">
+
         <title>Bruno Galdino</title>
-        
-        <link href = "css/estilo.css" rel = "stylesheet">
-    
-        <script src = "js/script.js"></script>
-        
-        
+
     </head>
-    
-    <body onload ="f( )">
+
+    <body>
         
+        <header id = "menu" >
+            
+            <nav class = "grid960" >
        
-        <nav id = "menu">
-            
-            <li> <a  id = "btn-home" href = "#home">Home</a> </li>
-            
-            <li> <a id = "btn-quem-sou" href = "#quem-sou">Quem sou</a> </li>
-            
-            <li> <a id = "btn-projetos" href = "#projetos">Projetos</a> </li>
-            
-            <li> <a id = "btn-contato" href = "#contato">Contato</a> </li>
-            
-        </nav>
-        
-        <div id = "botao-menu">
-            
-            <div></div>
-            <div></div>
-            <div></div>
-            
-        </div>
-        
-        
-        <div class = "social" >
+                <img src = "img/logo.png" class = "logo" alt = "Bruno Galdino" >
+                
+                <ul>
+
+                    <li><a href="#sobre">SOBRE</a></li>
+                    <li><a href="#projetos">PROJETOS</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <div id = "social">
             
             <ul>
-                
-                <li> <a href = "https://github.com/brunosoaresgaldino" target = "_blank">Github</a> </li>
-                <li> <a href = "https://www.facebook.com/profile.php?id=100003630590452" target = "_blank">Facebook</a> </li>
-                <li> <a href = "https://linkedin.com/" target = "_blank">Linkedin</a> </li>
-                
+                <li><a href = "https://github.com/brunosoaresgaldino" target = "_blank">GitHub</a></li>
+                <li><a href = "https://www.linkedin.com/in/brunosoaresgaldino" target = "_blank" >LinkedIn</a></li>
+                <li><a href = "https://www.facebook.com/profile.php?id=100003630590452" target = "_blank" >Facebook</a></li>
             </ul>
-           
-        
-        </div> 
-        
-        <div id = "back">
-        </div>
-        
-        <div  id = "home" class = "container" >
-            
-            <img src = "img/profile.jpg">
-           
-        </div>
-        
-        
-        <div id = "interface" class = "container">
-            
-            
-            
-            <article>
-            
-                <section id = "quem-sou">
-                    
-                    <h2>Quem sou</h2>
-                    
-                    <p>Olá, sou o Bruno Galdino, estudante do Bacharelado Interdisciplinar em Ciências da Universidade Federal do Sul da Bahia.</p>
-                    
-                    <p>Sou apaixonado por programação de computadores e gostaria muito de entrar para o mercado. Atualmente sou voluntário no FESC, grupo de pesquisa em fisica
-                    estatística, liderado pelo professor Doutor Fabricio L. Forgerinni.
-                    </p>
-                    
-                    <p>No FESC sou responsável por desenvolver uma ferramenta para análise de redes complexas, que será utilizada em projetos para a caracterização
-                       da rede elétrica brasileira, dentre outros projetos que se baseiam em sistemas complexos.
-                    </p>
-                    
-                    <p>Meu primeiro contato com programação foi com a linguagem C. Atualmente C é a linguagem que mais utilizo e tenho melhor domínio. Recentemente busco aprender novas tecnologias como: Python e JavaScript.
-                    </p>
-                    
-                
-                </section>
-                
-                <section id = "projetos">
-                    
-                    <h2>Projetos</h2>
-                    
-                    <p>Tenho diversos projetos no meu repositório no <strong><a href = "https://github.com/brunosoaresgaldino" target = "_blank">Github</a></strong>. A mairoria
-                       são joguinhos que desenvolvi como passa-tempo, mas tenho projetos mais "sérios". Meu maior projeto é o 
-                       <strong><a href = "https://github.com/brunosoaresgaldino/analisador-de-rede" target = "_blank">Analisador de Redes</a></strong>, que desenvolvo no FESC.
-                    </p>
-                   
-                    <p>Tenho outros projetos interessantes, porém menores, como: avaliador de expressões polinomiais, intepretador para uma linguagem assembly imaginária,
-                       programa para calcular o determinante de qualquer matrix NxN etc.
-                    </p>
-                
-                </section>
-                
-                <section id = "contato">
-                    
-                    <h2>Meus contatos</h2>
-                    
-                    <p>Você pode entrar em contato comigo através dos seguintes canais:</p>
-                    
-                    <ul>
-                        
-                        <li>Telefone: +55 73 99964-6024</li>
-                        <li>Email: brunobmx1995@gmail.com</li>
-                        
-                    </ul>
-                    
-                
-                </section>
-                
-            
-            </article>
-            
-            
-        </div>
-    
 
+        </div>
+
+
+        <figure id = "foto_inicial" >
+
+            <img src = "img/foto_inicial.jpg" >
+
+        </figure>
+
+        <section id  = "sobre" class = "grid960" >
+
+            <img id  = "perfil" src = "img/perfil.jpg" class = "circular" >
+
+            <h1>Bruno Galdino</h1>
+
+            <p>Olá, meu nome é Bruno, sou estudante do Bacharelado Interdisciplinar em Ciências da Universidade Federal do Sul da Bahia(UFSB).</p>
+            
+            <p>
+               Sou apaixonado por programação de computadores e tecnologia, sonho em poder ter essa paixão como profissão. Atualmente sou voluntário no FESC, grupo de pesquisa em física estatística liderado pelo professor Doutor Fabricio L. Forgerinni na UFSB.
+            </p>
+                    
+            <p>
+                No FESC faço parte de um time responsável por desenvolver uma ferramenta para análise de redes complexas, que será utilizada em projetos para a descrição da rede elétrica brasileira, dentre outros projetos que se baseiam em sistemas complexos.
+            </p>
+                    
+            <p>
+                Minha linguagem mãe é C, ela é que mais utilizo e tenho melhor domínio. Venho estudando outras linguagens como: Python, JavaScript, C++ e tecnolgias web.
+            </p>
+
+        </section>
+
+        <section id = "projetos" class = "grid960">
+
+            <h1>PROJETOS</h1>
+
+            <table id = "painel_projetos">
+
+                    <tr>
+                            <td>
+                                <figure>
+        
+                                    <img src = "img/snake.png">
+                                    <figcaption>
+                                        <a href = "https://github.com/BrunoSoaresGaldino/Snake" >
+                                            Jogo da cobrinha</a> implementado em C. Utilizando Allegro para os gráficos.
+                                        
+                                    </figcaption>
+        
+                                </figure>
+        
+                            </td>
+                            <td>
+                                <figure>
+        
+                                    <img src = "img/analisador.png">
+                                    
+                                    <figcaption>                                    
+                                        <a href = "https://github.com/BrunoSoaresGaldino/Analisador-de-Rede" >
+                                        Software para simulações</a> com redes complexas. Utilizado no FESC para caracterizar a rede elétrica brasileira.
+                                        
+                                    </figcaption>
+        
+                                </figure>
+            
+                            </td>
+
+                    </tr>   
+                    
+                    <tr>
+                            <td>
+                                
+                                <figure>
+            
+                                    <img src = "img/bgmatrix.png">
+                                    <figcaption>
+                                        <a href = "https://github.com/BrunoSoaresGaldino/BGMatrix" >
+                                        Um conjunto de rotinas</a> para operar com matrizes matemáticas. Trabalho de conclusão do meu curso.
+                                    </figcaption>
+            
+                                </figure>
+                
+                            </td>
+                                                                        
+                    
+                        <td>
+                            <figure>
+
+                                <img src = "img/flappy.png">
+                                <figcaption>
+                                    Um "clone" do famigerado flappy bird.
+                                </figcaption>
+
+                            </figure>
+
+                        </td>
+                    
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <figure>
+    
+                                <img src = "img/quiz.png">
+                                
+                                <figcaption>
+                                    Mistura de jogo da velha com quiz. Muito divertido, vale a pena jogar.
+                                </figcaption>
+    
+                            </figure>
+    
+                        </td>
+                        <td>
+                                <figure>
+        
+                                    <img src = "img/gui.png">
+                                    <figcaption>
+                                        AbIM Gui. Brincando com Immediate mode GUI usando Allegro.
+                                    </figcaption>
+        
+                                </figure>
+        
+                            </td>
+
+                </tr>
+
+            </table>
+
+        </section>
+
+        <section id = "contato" class = "grid960 pt140">
+
+            <h1>CONTATO</h1>
+
+            <p>Você pode falar comigo no email <strong>brunobmx1995@gmail.com</strong> ou ligando para <strong>(73) 99964-6024</strong>. Se preferir, deixe sua mensagem no formulário abaixo.</p>
+
+            <form id = "form_contato" action="https://formspree.io/brunobmx1995gmail.com" method="POST">
+
+                <label for = "form_field_nome" >Nome</label> 
+                <label for = "form_field_email">Email</label> 
+                <label for = "form_field_tel" >Telefone</label>
+                
+                <input id = "form_field_nome" type = "text" placeholder = "Fulano de Tal" required>
+                <input id = "form_field_email" type = "email" placeholder = "nome@mail.com" required>
+                <input id = "form_field_tel" placeholder = "73 99999-9999" pattern = "[0-9]{2} [0-9]{5}-[0-9]{4}" >
+                
+                <label for = "form_field_msg" id = "label_msg">Mensagem</label>
+                <textarea id = "form_field_msg" ></textarea>
+
+                <input type = "submit" id = "form_submit" value = "Enviar">
+
+            </form>
+
+        </section>
+
+        <footer>
+
+            <p>Bruno Soares Galdino - 2019</p>
+
+        </footer>
 
     </body>
 

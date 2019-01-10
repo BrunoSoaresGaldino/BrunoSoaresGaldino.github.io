@@ -179,17 +179,17 @@
 
             <form id = "form_contato" action="https://formspree.io/brunobmx1995@gmail.com" method="POST">
 
-                <label for = "form_field_nome" >Nome</label> 
+                <label for = "form_field_nome">Nome</label> 
                 <label for = "form_field_email">Email</label> 
                 <label for = "form_field_tel" >Telefone</label>
                 
-                <input id = "form_field_nome" type = "text" placeholder = "Fulano de Tal" required>
-                <input id = "form_field_email" type = "email" placeholder = "nome@mail.com" required>
-                <input id = "form_field_tel" placeholder = "73 99999-9999" pattern = "[0-9]{2} [0-9]{5}-[0-9]{4}" >
+                <input id = "form_field_nome" name = "Nome" type = "text" placeholder = "Fulano de Tal" required>
+                <input id = "form_field_email" name = "Email" type = "email" placeholder = "nome@mail.com" required>
+                <input id = "form_field_tel" name = "Telefone" placeholder = "73 99999-9999" pattern = "[0-9]{2} [0-9]{5}-[0-9]{4}" >
                 
                 <label for = "form_field_msg" id = "label_msg">Mensagem</label>
-                <textarea id = "form_field_msg" ></textarea>
-
+                <textarea id = "form_field_msg" name = "Mensagem"></textarea>
+ 
                 <input type = "submit" id = "form_submit" value = "Enviar">
 
             </form>
